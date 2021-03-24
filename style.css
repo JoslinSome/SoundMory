@@ -1,0 +1,117 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: rgb(255,255,102);
+  color: black; 
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+
+  font-style: italic;
+  color: red;
+}
+button{
+  
+  padding: 10px;
+  border-radius:20px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+.hidden{
+  display: none
+}
+#startBtn:active{
+  background:grey;
+}
+#stopBtn:active{
+  background:grey
+}
+#button1{
+  background: rgb(0,255,0,0.5);
+}
+#button1:active, #button1.lit{
+  background:green;
+}
+
+#button2{
+  background: rgb(0,255,255);
+}
+#button2:active, #button2.lit{
+  background:blue;
+}
+
+
+#button3{
+  background: rgb(255,69,60,0.6);
+}
+#button3:active, #button3.lit{
+  background: rgb(255,69,60,1);
+}
+#button4{
+  background: rgb(128,0,200,0.7);
+}
+#button4:active, #button4.lit{
+  background: rgb(128,0,200,1);
+}
+#button5{
+    background: rgb(200,0,150,1);
+
+}
+#button5:active, #button5.lit{
+  background: indigo;
+}
+
+#button6{
+    background: grey;
+
+}
+#button6:active, #button6.lit{
+  background: rgb(0,0,0,0.8);
+}
+#Notif{
+  color:red;
+}
+.progress { 
+  height: 30px; 
+  background: #555;
+  border-radius: 20px;
+  padding: 5px;
+}
+.progress> span {
+  height: 100%;
+  display: none;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(43,194,83);
+  animation: progressBar 11s infinite linear;
+  animation-iteration-count: 1;
+
+}
+
+#progText{
+  spacing: 200px;
+  font-family: verdana, arial, sans-serif; 
+  font-style: italic;
+  color: red;
+}
+
+@keyframes progressBar{
+  0%{
+    width:0%
+  }
+  100%
+  {
+    width: 100%;
+  }
+  
+} 
