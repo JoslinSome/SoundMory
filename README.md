@@ -70,7 +70,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Joslin Some]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
