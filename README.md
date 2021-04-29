@@ -2,8 +2,8 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: **NAME**
-Joslin Some
+Submitted by: **Joslin Some**
+
 Time spent: **8.5** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/wool-bony-lightning?path=index.html%3A1%3A0 (insert your link here, should start with https://glitch.com...)
